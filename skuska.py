@@ -123,7 +123,7 @@ class Clock:
                 if i > 4:
                     spacing_factor = 0.23
                 x = i * (140 + spacing_factor * 140)
-                y = 200
+                y = 100
                 segment = Segment((x, y), 10, 50, 10, 50, "black", canvas)
                 self.segments.append(segment)
             else:
